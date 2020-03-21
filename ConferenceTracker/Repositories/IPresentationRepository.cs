@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 namespace ConferenceTracker.Repositories
-{
+{ 
     public interface IPresentationRepository
     {
         public void Create(Presentation presentation);
