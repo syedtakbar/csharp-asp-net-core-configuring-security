@@ -11,7 +11,6 @@ namespace ConferenceTracker.Data
             : base(options)
         {
         }
-
         public virtual DbSet<Speaker> Speakers { get; set; }
         public virtual DbSet<Presentation> Presentations { get; set; }
 
